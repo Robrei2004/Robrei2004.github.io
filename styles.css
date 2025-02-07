@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav {
+    background-color: #333333a3;
+    padding: 10px 0;
+}
+
+
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.menu li {
+    margin: 0 15px;
+}
+
+
+
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+
+.menu li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
